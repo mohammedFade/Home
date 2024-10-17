@@ -1,0 +1,44 @@
+@import url(https://pro.fontawesome.com/releases/v5.10.0/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=El+Messiri:wght@400..700&display=swap');
+
+/* .el-messiri-<uniquifier> {
+    font-family: "El Messiri", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+  /* .cairo-<uniquifier> {
+    font-family: "Cairo", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  } */
+
+body {
+    font-family: "Cairo", serif;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.hover\:w-full:hover {
+    width: 100%;
+}
+
+.group:hover .group-hover\:w-full {
+    width: 100%;
+}
+
+.group:hover .group-hover\:inline-block {
+    display: inline-block;
+}
+
+.group:hover .group-hover\:flex-grow {
+    flex-grow: 1;
+}
